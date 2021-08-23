@@ -1,0 +1,16 @@
+{
+    "AWS/EC2": [
+        "CPUUtilization",
+        "DiskReadOps",
+        "DiskWriteOps",
+        "DiskReadBytes",
+        "DiskWriteBytes",
+        "NetworkIn",
+        "NetworkOut",
+        "NetworkPacketsIn",
+        "NetworkPacketsOut",
+        "StatusCheckFailed",
+        "StatusCheckFailed_Instance",
+        "StatusCheckFailed_System"
+    ]
+}
