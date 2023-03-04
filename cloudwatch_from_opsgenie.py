@@ -43,7 +43,7 @@ def cloudwatch_metrics(Namespace,MetricName,InstanceId_Values):
         print(Namespace,MetricName,cpu)
 
 #getting tags from opsgenie alerts
-a=Alert('3b5d25f3-8983-48ff-9154-137b6ac0a23d')
+a=Alert('<KEY>')
 tags=a.alert_tags()
 
 #filtering instance id from tags
